@@ -1,0 +1,14 @@
+{
+  "name": "analizador-lenguaje",
+  "version": "1.0.0",
+  "description": "Analizador para un lenguaje específico usando ANTLR4",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "generate": "antlr4 -Dlanguage=JavaScript Grammar.g4 -o generated",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

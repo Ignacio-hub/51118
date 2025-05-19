@@ -22,9 +22,18 @@ Abre PowerShell en la carpeta del proyecto y ejecuta:
 
 ```powershell
 java -jar .\antlr-4.13.2-complete.jar.jar -Dlanguage=JavaScript Grammar.g4 -o generated
+<<<<<<< HEAD
 ``
 Esto creará los archivos necesarios en la carpeta `generated/`.
 
+=======
+```
+
+Esto creará los archivos necesarios en la carpeta `generated/`.
+
+---
+
+>>>>>>> 4cf1406 (Primer commit del analizador)
 ### 2. Selecciona el ejemplo a probar
 
 Puedes usar uno de los archivos de ejemplo incluidos:
@@ -32,6 +41,7 @@ Puedes usar uno de los archivos de ejemplo incluidos:
 - `Ejemplo 2 (Bien).txt` (correcto)
 - `Ejemplo 3 (Mal).txt` (incorrecto)
 - `Ejemplo 4 (Mal).txt` (incorrecto)
+<<<<<<< HEAD
 Copia el contenido del ejemplo que quieras probar y pégalo en `input.txt` (o renombra el archivo de ejemplo a `input.txt`).
 ### 3. Instala las dependencias de Node.js (solo la primera vez)
 powershell
@@ -39,13 +49,46 @@ npm install
 ### 4. Ejecuta el analizador e intérprete
 ```powershell
 node main.js
+=======
+
+Copia el contenido del ejemplo que quieras probar y pégalo en `input.txt` (o renombra el archivo de ejemplo a `input.txt`).
+
+---
+
+### 3. Instala las dependencias de Node.js (solo la primera vez)
+
+```powershell
+npm install
+```
+
+---
+
+### 4. Ejecuta el analizador e intérprete
+
+```powershell
+node main.js
+```
+
+>>>>>>> 4cf1406 (Primer commit del analizador)
 El programa mostrará:
 - Tabla de tokens y lexemas
 - Si la entrada es correcta o tiene errores (con línea y causa)
 - El árbol sintáctico
 - La interpretación (ejecución) del código fuente
+<<<<<<< HEAD
+=======
+
+---
+
+>>>>>>> 4cf1406 (Primer commit del analizador)
 ## Notas
 - Si quieres probar otro ejemplo, repite el paso 2.
 - Puedes modificar la gramática en `Grammar.g4` y volver a generar los archivos ANTLR (paso 1).
 - Si tienes dudas o errores, revisa la consola para ver mensajes detallados.
+<<<<<<< HEAD
+=======
+
+---
+
+>>>>>>> 4cf1406 (Primer commit del analizador)
 **Autor:** Ignacio

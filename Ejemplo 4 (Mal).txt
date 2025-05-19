@@ -1,0 +1,8 @@
+segun 1 hacer {
+  caso 1: {
+    imprmir("Error de palabra reservada");
+  }
+  defecto: {
+    imprimir("Otro");
+  }
+} finsegun

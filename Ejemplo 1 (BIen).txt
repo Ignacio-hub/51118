@@ -1,0 +1,8 @@
+segun 1 hacer {
+  caso 1: {
+    imprimir("Es uno");
+  }
+  defecto: {
+    imprimir("No es uno");
+  }
+} finsegun

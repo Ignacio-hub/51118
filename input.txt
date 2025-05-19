@@ -1,0 +1,12 @@
+segun 1 hacer {
+  caso 1: {
+    imprimir("Número uno");
+  }
+  caso 2: {
+    imprimir("Número dos");
+    salir;
+  }
+  defecto: {
+    imprimir("Otro número");
+  }
+} finsegun
